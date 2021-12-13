@@ -19,7 +19,7 @@ void main() {
       if (guess == answer) {
         print('║ ➜ $guess is CORRECT ❤,total guesses: $i');
         print('╟────────────────────────────────────────────────────');
-        break;
+        w = false;
       } else {
         if (guess >= answer) {
           print('║ ➜ $guess is TOO HIGH! ▲');
