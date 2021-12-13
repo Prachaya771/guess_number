@@ -21,7 +21,7 @@ void main() {
         print('╟────────────────────────────────────────────────────');
         w = false;
       } else {
-        if (guess >= answer) {
+        if (guess > answer) {
           print('║ ➜ $guess is TOO HIGH! ▲');
         } else {
           print('║ ➜ $guess is TOO LOW! ▼');
